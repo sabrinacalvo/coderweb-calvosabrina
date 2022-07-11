@@ -162,9 +162,17 @@ p {
     grid-template-rows: 1fr;
 }
 
+.fondotitulo :hover{
+    filter: blur(0.5px);
+    transform: scale(1.3);
+    transition: all .2s;
+}
+
 .div1 {
     grid-area: 1 / 1 / 2 / 2;
     justify-items: center;
+    
+
 }
 
 .div2 {
@@ -225,7 +233,7 @@ footer {
 }
 
 .iconos-footer:hover {
-    color: #a2174d;
+    color: #393235;
     font-size: 55px;
 }
 
