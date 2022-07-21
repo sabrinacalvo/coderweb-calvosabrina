@@ -1,0 +1,21 @@
+.contenedorskill {
+    display: flex;
+}
+.Skillleft {
+    width: 50%;
+    padding: 0;
+    position: sticky;
+    height: 100%;
+    width: 100%;
+}
+.skillright {
+    flex: auto;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+}
+.imgskill {
+    width: 100%;
+    display: block;
+    padding: 5px;
+}
