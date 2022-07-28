@@ -1,0 +1,54 @@
+.flex-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.fondotechnologies {
+    background: $color-secundario;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 0;
+        margin: {
+            block-start:0.83em;
+            inline-start:0px;
+            inline-end:0px;
+          }  
+   
+        font:{
+            size:1.5em;
+            weight: bold;
+        }
+    
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    justify-items: center;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    justify-items: center;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    justify-items: center;
+}
+
+.div4 {
+    grid-area: 1 / 4 / 2 / 5;
+    justify-items: center;
+}
+
+.div5 {
+    grid-area: 1 / 5 / 2 / 6;
+    justify-items: center;
+}
+
+.div6 {
+    grid-area: 1 / 6 / 2 / 7;
+    justify-items: center;
+}

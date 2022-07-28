@@ -31,12 +31,14 @@ textarea {
 }
 
 button {
-
-    height: 30px;
+    height: 50px;
     cursor: pointer;
     border-radius: 5px;
-
 }
+.btn {
+    @extend button
+}
+
 
 .map {
     grid-area: 1 / 2 / 2 / 3;

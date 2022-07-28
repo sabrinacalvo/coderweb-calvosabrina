@@ -1,21 +1,32 @@
-.contenedorskill {
-    display: flex;
-}
-.Skillleft {
-    width: 50%;
-    padding: 0;
-    position: sticky;
-    height: 100%;
-    width: 100%;
-}
-.skillright {
-    flex: auto;
-    width: 50%;
-    padding: 10px;
-    justify-content: center;
-}
-.imgskill {
-    width: 100%;
-    display: block;
-    padding: 5px;
-}
+  .contenedorskill {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-color: $color-terciario;
+      padding: 1.5rem;
+
+  }
+
+  .Skillleft {
+      width: 50%;
+      padding: 1.5rem 1rem;
+      position: sticky;
+      height: 100%;
+      width: 100%;
+      
+  }
+
+
+  .skillright {
+      flex: auto;
+      width: 50%;
+      padding: 10px;
+      justify-content: center;
+  }
+
+  .imgskill {
+      width: 100%;
+      display: block;
+      padding: 5px;
+  }
