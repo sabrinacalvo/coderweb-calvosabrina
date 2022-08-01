@@ -14,9 +14,8 @@
       position: sticky;
       height: 100%;
       width: 100%;
-      
-  }
 
+  }
 
   .skillright {
       flex: auto;
@@ -25,8 +24,118 @@
       justify-content: center;
   }
 
-  .imgskill {
+  .list {
+      list-style: none;
       width: 100%;
       display: block;
-      padding: 5px;
+      font-size: 18px;
+      margin-bottom: 3rem;
+      position: relative;
+      text-decoration: none;
+      padding: 40px;
+         
+    } 
+
+  .list-item1 {
+      background-color: $color-item1;
+      color:$color-secundario;
+      padding: 10px;
+      &:hover{
+        transition: 2s;
+        background-color: $color-terciario;
+      
+      }
   }
+
+  .list-item2 {
+      background-color: $color-item2;
+      color: $color-secundario;
+      padding: 10px;
+      &:hover{
+        transition: 2s;
+        background-color: $color-terciario;
+  }
+}
+
+  .list-item3 {
+      background-color: $color-item3;
+      color: $color-secundario;
+      padding: 10px;
+      &:hover{
+        transition: 2s;
+        background-color: $color-terciario;
+  }
+  }
+  .list-item4 {
+      background-color: $color-item4;
+      color:$color-secundario;
+      padding: 10px;
+      &:hover{
+        transition: 2s;
+        background-color: $color-terciario;
+
+  }
+  }
+  .list-item5 {
+      background-color: $color-item5;
+      color: $color-secundario;
+      padding: 10px;
+      &:hover{
+        transition: 2s;
+        background-color: $color-terciario;
+  }
+}
+
+  .list-item6 {
+      background-color: $color-item6;
+      color: $color-secundario;
+     padding: 10px;
+     &:hover{
+        transition: 2s;
+        background-color: $color-terciario;
+  }
+}
+
+  .list-item7 {
+      background-color:$color-item7 ;
+      color: $color-secundario;
+      padding: 10px;
+      &:hover{
+        transition: 2s;
+        background-color: $color-terciario;
+        
+  }
+}
+
+  .list-item8 {
+      background-color: $color-item8;
+      color: $color-secundario;
+      padding: 10px;
+      &:hover{
+        transition: 2s;
+        background-color: $color-terciario;
+
+  }
+}
+
+  .list-item9 {
+      background-color: $color-item9;
+      color: $color-secundario;
+      padding: 10px;
+      &:hover{
+        transition: 2s;
+        background-color: $color-terciario;
+
+  }
+}
+
+  .list-item10 {
+      background-color: $color-item10;
+      color: $color-secundario;
+      padding: 10px;
+      &:hover{
+        transition: 2s;
+        background-color: $color-terciario;
+
+  }
+}
