@@ -350,8 +350,6 @@ button, .btn {
     font-size: medium; }
   .form .map {
     width: 75%; }
-  .contenedorskill {
-    padding: 5rem; }
   .list {
     font-size: 12px; } }
 
@@ -388,9 +386,7 @@ button, .btn {
   .caja-img {
     display: none; }
   .form .map {
-    width: 75%; }
-  .contenedorskill {
-    padding: 3rem; } }
+    width: 75%; } }
 
 .flex-container {
   display: grid;
