@@ -9,7 +9,7 @@
   }
 
   .Skillleft {
-      width: 50%;
+      width: 35%;
       padding: 1.5rem 1rem;
       position: sticky;
       height: 100%;
@@ -19,7 +19,7 @@
 
   .skillright {
       flex: auto;
-      width: 50%;
+      width: 75%;
       padding: 10px;
       justify-content: center;
   }
@@ -30,9 +30,9 @@
       display: block;
       font-size: 18px;
       margin-bottom: 3rem;
-      position: relative;
       text-decoration: none;
       padding: 40px;
+      cursor: default;
          
     } 
 
@@ -40,6 +40,7 @@
       background-color: $color-item1;
       color:$color-secundario;
       padding: 10px;
+      width: 100%;
       &:hover{
         transition: 2s;
         background-color: $color-terciario;

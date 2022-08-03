@@ -5,13 +5,12 @@
  .navbarNav {
      display: flex;
      flex: {
-         direction: row;
+         direction: wrap;
          justify-content: center;
          align-items: center;
-         padding-right:0;
+         padding-right: 0;
          padding-left: 0;
-         list-style:none;
-         height: 100px;
+         list-style: none;
      }
 
  }
@@ -20,13 +19,15 @@
      padding: 10px;
      font-size: 20px;
      line-height: 1;
-     background-color:transparent;     
+     background-color: transparent;
      border-radius: 2px;
+
      &hover {
          background-color: rgb(176, 176, 121);
          transition: 3s;
      }
  }
+
  .navbar-nav {
      background-color: black;
      color: white;
