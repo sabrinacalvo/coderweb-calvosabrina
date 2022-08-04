@@ -19,7 +19,7 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template: "navbar" 100px "article" auto "footer" 100px;
+  grid-template: "header" 100px "article" auto "footer" 100px;
   gap: 0; }
 
 h2 h4 p {
@@ -33,7 +33,6 @@ h2 h4 p {
   font-size: 2rem;
   font-weight: bold;
   background: linear-gradient(100deg, #5564eb, #00dfd8);
-  border-radius: 3px;
   width: 100%; }
 
 .titulo h1 {
@@ -252,6 +251,9 @@ button, .btn {
 .navbar-dark .navbar-brand {
   color: white; }
 
+.navbar {
+  padding-top: 1.9rem; }
+
 .navbarNav {
   display: flex;
   flex-direction: wrap;
@@ -316,6 +318,8 @@ button, .btn {
 @media screen and (max-width: 600px) {
   .container {
     width: 75%; }
+  .navbar {
+    padding-top: 3rem; }
   .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0; }
@@ -356,6 +360,8 @@ button, .btn {
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   .container {
     width: 100%; }
+  .navbar {
+    padding-top: 2.5rem; }
   .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0; }
@@ -399,7 +405,6 @@ button, .btn {
   justify-content: center;
   padding: 0;
   line-height: 0;
-  margin-block-start: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-size: 1.5em;

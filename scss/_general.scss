@@ -1,19 +1,22 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     height: 100%;
 }
+
 body {
     display: flex;
+
     flex: {
-         direction: column;
-         min-height: 100%;
-         margin: 0;
+        direction: column;
+        min-height: 100%;
+        margin: 0;
     }
-     
+
 }
 
 .grid-container>* {
@@ -21,50 +24,55 @@ body {
     border-radius: 0;
     text-align: center;
 }
+
 .grid-container {
     display: grid;
-    grid-template: 
-        "navbar" 100px
+    grid-template:
+        "header" 100px
         "article" auto
         "footer" 100px;
-    gap:0;
-    }
+    gap: 0;
+}
 
-h2 h4 p  {
+h2 h4 p {
     text-align: center;
     font-size: 0.5em;
     font-weight: 500;
     line-height: 1.2;
- }
+}
 
 .titulotec {
     display: block;
     font-size: 2rem;
     font-weight: bold;
     background: linear-gradient(100deg, #5564eb, #00dfd8);
-    border-radius: 3px;
     width: 100%;
 }
 
 .titulo h1 {
     text-align: center;
-    font:{
+
+    font: {
         size: 1cm;
         weight: bolder;
         family: 'Montserrat', sans-serif;
-}       &:hover {
+    }
+
+    &:hover {
         transition: all .2s;
     }
 }
+
 ul li {
     list-style: none;
 }
 
-$estilos:(
+$estilos: (
     color: black,
     centro: center,
     1em:1em,
 );
+
 .text-work {
     color: map-get($estilos, color);
     text-align: map-get($estilos, centro);
@@ -73,13 +81,12 @@ $estilos:(
     margin-bottom: 1.5rem;
     border: 5px;
     border-radius: 10px;
-    padding:2rem 2rem;
+    padding: 2rem 2rem;
     background-color: white;
-    
+
 }
+
 article {
-    grid-area:article;
+    grid-area: article;
     background-color: rgba(128, 128, 128, 0.363);
 }
-
-
